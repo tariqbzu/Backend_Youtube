@@ -28,4 +28,10 @@
 13-> install nodemon
             npm install --save-dev nodemon
             npm i -D nodemon
+14-> In src folder
+        |---> create folders controllers db middlewares models utils routes
+15-> Install Prettier
+        npm i -D prettier
+        --> create .prettierrc 
+        --> create .prettierignore
 
