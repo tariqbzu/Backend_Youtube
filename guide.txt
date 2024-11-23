@@ -1,0 +1,31 @@
+1-> Create Directory
+2-> npm init
+3-> Create Readme.txt file
+
+                Git Steps
+            
+            1- git init
+            2- git add .
+            3- git commit - m "New Commit"
+            4- git branch -M main
+            5- git remote add origin https://github.com/tariqbzu/your-repository.git
+            6- git remote -v
+            7- git push -u origin main
+            
+
+4-> Create public folder
+5-> In public folder create temp folder
+6-> In temp folder create .gitkeep file
+7-> create .gitignore file 
+8-> Go to gitignore generator to copy code and paste in .gitignore
+9-> Create .env file
+10-> Create src folder
+11-> Create files in src folder 
+            |--------->>    app.js, constants.js, index.js
+12-> Go to package.json file and write
+            "type" : "module",
+            "dev": "nodemon src/index.js"
+13-> install nodemon
+            npm install --save-dev nodemon
+            npm i -D nodemon
+
