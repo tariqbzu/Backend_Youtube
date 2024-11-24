@@ -97,3 +97,28 @@
         This all doing in User models
 
 26-> Goto .env file for tokens
+
+                ///////////////////        File Handling   /////////////////////
+
+                ---> Use Cloudinary
+27-> Install packages multer and Cloudinary
+                ---> npm install cloudinary
+                ---> npm i multer
+
+28-> Make file in utils/cloudinary.js
+
+
+
+
+
+
+
+
+
+
+
+https://stackblitz.com/edit/stackblitz-starters-anhzkv?file=models%2Fecommerce%2Fuser.model.js
+
+https://console.cloudinary.com/pm/c-2e1bea86eeb044cab228e05bb0cb3b/getting-started
+
+https://console.cloudinary.com/pm/c-2e1bea86eeb044cab228e05bb0cb3b/getting-started
