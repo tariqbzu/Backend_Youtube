@@ -81,3 +81,19 @@
                                         this called MidleWare , check something if user is login or not
 
 20->    Make Changes in Utils folder
+21->    Create Models in src/models
+22->    Install Aggregation package
+                -----  npm i mongoose-aggregate-paginate-v2
+23->    Import this in Model video
+
+24-> Install BCRYPT package
+                ------  npm i bcrypt
+                                // It's help you to hash your paswords
+
+25-> Install Token package
+                -----   npm i jsonweb token
+                        // jwt ya jsonwebtoken for encryption uses
+
+        This all doing in User models
+
+26-> Goto .env file for tokens
