@@ -35,3 +35,37 @@
         --> create .prettierrc 
         --> create .prettierignore
 
+                    Database Connection
+
+                        ---> Create Port and paste URL of Your DB Connection from Web in .env file
+                        ---> Create Constant Variable in src/constants.js file 
+                                " export const DB_NAME = "youtube" "
+
+16-> Install Mongoose , Express and Dotenv
+                npm i mongoose express dotenv
+
+                //////////////  
+
+                                import express from "express";
+                                import mongoose from "mongoose";
+                                import { DB_NAME } from "./constants";
+
+                                const app = express()
+
+                                        ( async () => {
+                                                try {
+                                                await mongoose.connect(`${process.env.MONGODB_URI}/${DB_NAME}`);
+                                                app.on("Error: ", (error)=>{
+                                                console.log("Error: ", error);
+                                                throw error;
+                                                }) 
+                                                app.listen(process.env.PORT, ()=>{
+                                                console.log(`App is Listening on Port ${process.env.PORT}`);    
+                                                })
+                                                } catch (error) {
+                                                console.log("ERROR :", error);
+                                                throw error;
+                                                }
+                                        })() // This double function called Efi Method 
+                /////////////////////////////////////////////////////////////////////////
+                
