@@ -68,4 +68,16 @@
                                                 }
                                         })() // This double function called Efi Method 
                 /////////////////////////////////////////////////////////////////////////
-                
+
+17->    Go to src/app.js
+18->    Go Back to index.js
+
+19->    install packages
+                npm i cookie-parser cors  :-> Cors --> Cross origin Resource Sharing
+                import these in app.js file
+
+                <!------  MidleWare ------>
+                                ----- when you create url in routes then we check browser is capable for receving this or not
+                                        this called MidleWare , check something if user is login or not
+
+20->    Make Changes in Utils folder
