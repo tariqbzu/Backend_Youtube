@@ -114,7 +114,7 @@
 30-> Makes routes
 31-> Go back to App.js for routes creation
 
-
+                //////////////////       POSTMAN        /////////////////
 
 
 
