@@ -1,1 +1,1 @@
-export const DB_NAME = "YOUTUBE_BACKEND"
+export const DB_NAME = "youtube"

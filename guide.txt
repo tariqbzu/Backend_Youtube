@@ -107,6 +107,13 @@
 
 28-> Make file in utils/cloudinary.js
 
+                //////////////////      CONTROLLERS  /////////////////
+
+29-> Make Controllers
+
+30-> Makes routes
+31-> Go back to App.js for routes creation
+
 
 
 

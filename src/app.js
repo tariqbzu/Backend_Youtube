@@ -15,4 +15,13 @@ app.use(express.urlencoded({extended:true ,limit:"16kb"}))  // when we get data 
 app.use(express.static("public"))           // sometime we store file folder like our public folder in it we have assets
 app.use(cookieParser())
 
+// Routes Imports
+import userRouter from './routes/user.routes.js'
+
+// Routes Declaration
+app.use("/api/v1/users", userRouter)
+
+// http://localhost:8000/api/v1/users/register
+
+
 export {app}
