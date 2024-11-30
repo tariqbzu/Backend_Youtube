@@ -118,7 +118,10 @@
 
 32-> login controllers
 33-> logout controllers
-34-> 
+34-> Register Controllers
+
+35-> Create Subscription Model
+
 
 
 
